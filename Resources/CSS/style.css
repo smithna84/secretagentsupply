@@ -1,0 +1,166 @@
+/* Page Style */
+
+body{
+  font-family: helvetica;
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+/* Header Style */
+
+header{
+  display: flex;
+  width: 100%;
+  background-color: black;
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 960px;
+  }
+
+.logo img{
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.logo h2{
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  color: white;
+}
+
+#top{
+  display: flex;
+  width: 100%;
+  height: 25rem;
+  background-image: url(../Images/moto.jpeg);
+}
+
+.announcement{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20rem;
+  padding-top: 9rem;
+  border: 1px solid blue;
+}
+
+.announcement span{
+
+}
+
+.announcement h2{
+
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: red;
+}
+
+nav span{
+  display: inline-block;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+/* Main Content Style */
+
+.content{
+  display: flex;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  width: 30%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.item img{
+  height: 9rem;
+  width: 12rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.item span{
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.location{
+  width: 30%;
+  margin-bottom: 4rem;
+}
+
+.location h4{
+  background-color: black;
+  color: white;
+}
+
+.location span{
+  color: black;
+}
+
+.hours{
+  width: 30%
+}
+
+.hours h4{
+  background-color: black;
+  color: white;
+}
+
+.hours span{
+  color: black;
+}
+
+/* Footer Style */
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: black;
+  height: 5rem;
+  width: 100%
+}
+
+footer span{
+  color: white;
+  text-align: left;
+  padding-left: 3rem;
+}
