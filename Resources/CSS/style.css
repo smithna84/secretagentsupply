@@ -10,9 +10,8 @@ body{
 
 .flex-container{
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   flex-grow: 1;
+  margin: auto;
 }
 
 /* Header Style */
@@ -42,33 +41,45 @@ header{
   color: white;
 }
 
-#top{
-  display: flex;
-  width: 100%;
-  height: 25rem;
+  /* Announcement*/
+
+.main-banner{
   background-image: url(../Images/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
 }
 
-#top.announcement{
-  width: 20rem;
+.container{
+  max-width: 960px;
+  margin: auto;
   padding-top: 9rem;
-  border: 1px solid blue;
 }
 
-.announcement span{
-
+.headline{
+  width: 20rem;
+  background-color: black;
+  padding: 2rem 3rem;
 }
 
-.announcement h2{
-
+h1, h4{
+  font-weight: bold;
 }
+.headline h1{
+  font-size: 2em;
+  line-height: 1.2em;
+  margin: 0.25em 0;
+}
+
+  /* Navigation Section */
 
 nav{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-color: red;
+  background-color: firebrick;
 }
 
 nav span{
