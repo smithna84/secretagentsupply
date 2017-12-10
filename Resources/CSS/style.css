@@ -178,9 +178,12 @@ footer{
 }
 
 @media only screen and (max-width){
+  .banner{
+    max-height: 15rem;
+  }
   .headline{
     padding: 1rem 2rem;
-    
+    margin-top: 10rem;
   }
   .headline h1{
     font-size: 1rem;
@@ -188,5 +191,17 @@ footer{
   .headline h4{
     font-size: 0.77rem;
   }
-
+  .item{
+    max-width: 90%;
+  }
+  .details{
+    flex-direction: column;
+  }
+  .hours, .location{
+    max-width: 90%;
+    margin: 0.25rem;
+  }
+  footer{
+    text-align: center;
+  }
 }
