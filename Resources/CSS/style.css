@@ -54,6 +54,8 @@ header{
   width: 20rem;
   background-color: black;
   padding: 2rem 3rem;
+  top: 9em;
+  position: relative;
 }
 
 h1, h4{
@@ -164,7 +166,7 @@ footer{
   padding: 5em 0px;
   width: 100%
 }
-
+/*
 @media only screen and (max-width: 1024px){
   .hours{
     width: 35%;
@@ -176,6 +178,8 @@ footer{
     width: 47%;
   }
 }
+*/
+
 
 @media only screen and (max-width){
   .banner{
@@ -183,7 +187,7 @@ footer{
   }
   .headline{
     padding: 1rem 2rem;
-    margin-top: 10rem;
+    top: 10rem;
   }
   .headline h1{
     font-size: 1rem;
