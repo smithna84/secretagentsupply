@@ -164,3 +164,29 @@ footer{
   padding: 5em 0px;
   width: 100%
 }
+
+@media only screen and (max-width: 1024px){
+  .hours{
+    width: 35%;
+  }
+  .location{
+    width: 35%;
+  }
+  .item{
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width){
+  .headline{
+    padding: 1rem 2rem;
+    
+  }
+  .headline h1{
+    font-size: 1rem;
+  }
+  .headline h4{
+    font-size: 0.77rem;
+  }
+
+}
